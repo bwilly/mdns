@@ -1,0 +1,18 @@
+{
+    "name": "mdns-module",
+    "version": "1.0.0",
+    "description": "Advertise mDNS Service Name, Service Type and Port that are passed as params.",
+    "main": "mdns-advertiser.js",
+    "author": "bwilly",
+    "license": "ISC",
+    "dependencies": {
+        "dnssd": "^0.4.1",
+        "mdns": "^2.7.2"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0"
+    },
+    "scripts": {
+        "test": "jest"
+    }
+}
